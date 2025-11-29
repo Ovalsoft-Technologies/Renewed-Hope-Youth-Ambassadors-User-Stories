@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive user stories for the Renewed Hope Youth Ambassadors application - 2027 Nigerian elections digital mobilization platform">
+    <title>Renewed Hope Youth Ambassadors - User Stories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <rect width="40" height="40" rx="8" fill="currentColor" opacity="0.1"/>
+                        <path d="M20 10L28 16V24L20 30L12 24V16L20 10Z" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="nav-title">Renewed Hope Youth Ambassadors</h1>
+                    <p class="nav-subtitle">User Stories & Requirements</p>
+                </div>
+            </div>
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="2"/>
+                        <path d="M10 2V4M10 16V18M18 10H16M4 10H2M15.657 4.343L14.243 5.757M5.757 14.243L4.343 15.657M15.657 15.657L14.243 14.243M5.757 5.757L4.343 4.343" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M17 10.5C17 14.6421 13.6421 18 9.5 18C5.35786 18 2 14.6421 2 10.5C2 6.35786 5.35786 3 9.5 3C9.67442 3 9.84744 3.00689 10.0186 3.02041C8.85088 4.29963 8.125 6.00808 8.125 7.875C8.125 11.3958 10.9792 14.25 14.5 14.25C15.6399 14.25 16.7096 13.9601 17.6364 13.4508C17.8686 12.5121 18 11.5234 18 10.5H17Z" fill="currentColor"/>
+                    </svg>
+                </button>
+                <a href="https://github.com/Ovalsoft-Technologies/Renewed-Hope-Youth-Ambassadors-User-Stories" target="_blank" class="github-link">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10 0C4.477 0 0 4.477 0 10c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0110 4.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C17.137 18.165 20 14.418 20 10c0-5.523-4.477-10-10-10z" clip-rule="evenodd"/>
+                    </svg>
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">Version 1.0 • November 2025</div>
+                <h2 class="hero-title">Comprehensive User Stories</h2>
+                <p class="hero-description">
+                    Complete requirements documentation for the Renewed Hope Youth Ambassadors application—a revolutionary platform designed to mobilize Nigerian youth for the 2027 general elections.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-value">70+</div>
+                        <div class="stat-label">User Stories</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">8</div>
+                        <div class="stat-label">Epic Features</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">180+</div>
+                        <div class="stat-label">Story Points</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">3</div>
+                        <div class="stat-label">Release Phases</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-group">
+                <label>Filter by User Type:</label>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Stories</button>
+                    <button class="filter-btn" data-filter="ambassador">Ambassador</button>
+                    <button class="filter-btn" data-filter="admin">Admin</button>
+                    <button class="filter-btn" data-filter="stakeholder">Stakeholder</button>
+                    <button class="filter-btn" data-filter="technical">Technical</button>
+                </div>
+            </div>
+            <div class="filter-group">
+                <label>Filter by Priority:</label>
+                <div class="filter-buttons">
+                    <button class="priority-btn active" data-priority="all">All</button>
+                    <button class="priority-btn" data-priority="P0">P0 - Critical</button>
+                    <button class="priority-btn" data-priority="P1">P1 - High</button>
+                    <button class="priority-btn" data-priority="P2">P2 - Medium</button>
+                </div>
+            </div>
+            <div class="search-box">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="2"/>
+                    <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <input type="text" id="searchInput" placeholder="Search user stories...">
+            </div>
+        </div>
+    </section>
+
+    <!-- User Stories Grid -->
+    <section class="stories-section">
+        <div class="container">
+            <div id="storiesGrid" class="stories-grid">
+                <!-- Stories will be dynamically loaded here -->
+            </div>
+            <div id="noResults" class="no-results" style="display: none;">
+                <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                    <circle cx="40" cy="40" r="30" stroke="currentColor" stroke-width="2" opacity="0.2"/>
+                    <path d="M40 25V40M40 50H40.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+                <h3>No stories found</h3>
+                <p>Try adjusting your filters or search query</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Detail Modal -->
+    <div id="storyModal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+            <div id="modalBody">
+                <!-- Story details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Renewed Hope Youth Ambassadors</h3>
+                    <p>Building the future of political engagement in Nigeria</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/Ovalsoft-Technologies/Renewed-Hope-Youth-Ambassadors-User-Stories" target="_blank">GitHub Repository</a>
+                    <a href="../USER-STORIES.md" target="_blank">Download Markdown</a>
+                    <a href="https://ovalsoft.com" target="_blank">Ovalsoft Technologies</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ovalsoft Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
