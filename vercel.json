@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "renewed-hope-youth-ambassadors-user-stories",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
