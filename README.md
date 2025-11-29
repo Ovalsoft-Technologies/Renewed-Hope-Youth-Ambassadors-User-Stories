@@ -2,6 +2,18 @@
 
 Comprehensive user stories for the Renewed Hope Youth Ambassadors application, a revolutionary digital platform designed to mobilize Nigerian youth for the 2027 general elections.
 
+## 🌐 Live Website
+
+**View the interactive user stories website**: https://ovalsoft-technologies.github.io/Renewed-Hope-Youth-Ambassadors-User-Stories/
+
+The website features:
+- 🎨 Beautiful, modern design with dark mode
+- 🔍 Advanced filtering by user type and priority
+- 🔎 Real-time search across all stories
+- 📱 Fully responsive mobile design
+- ⚡ Fast, client-side rendering
+- 🎯 Detailed story modals with acceptance criteria
+
 ## 📋 Overview
 
 This repository contains detailed user stories covering all aspects of the application, organized by user type:
@@ -14,8 +26,8 @@ This repository contains detailed user stories covering all aspects of the appli
 ## 📖 Documentation
 
 - **[USER-STORIES.md](./USER-STORIES.md)**: Complete user stories with acceptance criteria
-- **[STORY-MAPPING.md](./STORY-MAPPING.md)**: Visual story map and release planning
-- **[ACCEPTANCE-CRITERIA.md](./ACCEPTANCE-CRITERIA.md)**: Detailed acceptance criteria templates
+- **[index.html](./index.html)**: Interactive website homepage
+- **[Website Source Code](./css)**: CSS and JavaScript for the interactive site
 
 ## 🎯 Story Structure
 
@@ -120,6 +132,35 @@ A user story is "Done" when:
 - **Performance Tests**: Load testing completed
 - **Accessibility Tests**: WCAG 2.1 Level AA compliance
 
+## 🌐 Website Development
+
+The interactive website is built with:
+- **HTML5**: Semantic, accessible markup
+- **CSS3**: Modern styling with CSS variables for theming
+- **Vanilla JavaScript**: No frameworks, pure performance
+- **GitHub Pages**: Free, reliable hosting
+
+### Local Development
+
+To run the website locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/Ovalsoft-Technologies/Renewed-Hope-Youth-Ambassadors-User-Stories.git
+cd Renewed-Hope-Youth-Ambassadors-User-Stories
+
+# Open in browser (or use a local server)
+open index.html
+
+# Or with Python
+python3 -m http.server 8000
+# Visit http://localhost:8000
+```
+
+### Deployment
+
+The website is automatically deployed to GitHub Pages when changes are pushed to the `master` branch.
+
 ## 📝 Contributing
 
 When adding new user stories:
@@ -129,11 +170,15 @@ When adding new user stories:
 3. Assign priority and story points
 4. Link to related epics
 5. Update the story mapping document
+6. Update `js/data.js` with the new story
 
 ## 📧 Contact
 
 **Ovalsoft Technologies**  
 Building the future of political engagement in Nigeria
+
+- **GitHub**: https://github.com/Ovalsoft-Technologies
+- **Website**: https://ovalsoft.com
 
 ---
 
